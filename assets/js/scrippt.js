@@ -76,11 +76,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Abdullah Shabbir";
-            $("#favicon").attr("href", "abdullah12.jpg");
+          
         }
         else {
             document.title = "CHAUDHARY";
-            $("#favicon").attr("href", "abdu.jpg");
+           
         }
     });
 
